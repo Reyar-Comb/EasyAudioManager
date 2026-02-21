@@ -17,14 +17,11 @@ config/icon="res://icon.svg"
 [audio]
 
 buses/default_bus_layout="uid://cyw8l654xujaf"
+easy_audio_manager/pool_size=20
 
 [dotnet]
 
 project/assembly_name="AudioManagerPlugin"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/EasyAudioManager/plugin.cfg")
 
 [physics]
 

@@ -7,4 +7,6 @@ public partial class AudioClip : Resource
 
     [Export(PropertyHint.ResourceType, "AudioStream,CustomStream")] 
     public Resource Stream;
+
+    public string Type => Stream.GetType().Name;
 }

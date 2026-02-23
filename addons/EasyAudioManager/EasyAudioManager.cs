@@ -73,6 +73,12 @@ public partial class EasyAudioManager : EditorPlugin
             ProjectSettings.SetSetting("audio/easy_audio_manager/3d_player_enabled", true);
             ProjectSettings.Save();
         }
+
+        if (!ProjectSettings.HasSetting("audio/easy_audio_manager/max_sfx_polyphony"))
+        {
+            ProjectSettings.SetSetting("audio/easy_audio_manager/max_sfx_polyphony", 10);
+            ProjectSettings.Save();
+        }
     }
 
 

@@ -17,4 +17,5 @@ public abstract partial class AudioEmitterBase : Node
 			GD.PrintErr($"AudioEmitter: AudioClip with name '{name}' not found in AudioDictionary.");
 		}
 	}
+
 }
